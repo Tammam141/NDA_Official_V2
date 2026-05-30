@@ -428,15 +428,28 @@ function initCatalogFilter() {
 
 // --- auto-scroll and video autoplay helper ---
 function initAutoplayElements() {
-  // Force video autoplay on all video elements
+  // Force video autoplay on all video elements with sound
   const videos = document.querySelectorAll("video");
   videos.forEach(video => {
-    video.muted = true;
     video.playsInline = true;
     video.autoplay = true;
-    // Attempt play
+    video.muted = false; // Enable audio
+
+    // Attempt to play unmuted first
     video.play().catch(err => {
-      console.log("Autoplay failed/blocked by browser:", err);
+      console.log("Unmuted autoplay blocked, playing muted first:", err);
+      video.muted = true;
+      video.play().catch(err2 => console.log("Muted autoplay also failed:", err2));
+
+      // Unmute and ensure playing on first user click or touch anywhere on the page
+      const unmuteOnInteraction = () => {
+        video.muted = false;
+        video.play().catch(err3 => console.log("Failed to play on interaction:", err3));
+        document.removeEventListener("click", unmuteOnInteraction);
+        document.removeEventListener("touchstart", unmuteOnInteraction);
+      };
+      document.addEventListener("click", unmuteOnInteraction);
+      document.addEventListener("touchstart", unmuteOnInteraction);
     });
   });
 
