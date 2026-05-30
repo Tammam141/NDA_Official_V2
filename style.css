@@ -816,7 +816,7 @@ h1, h2, h3, h4, h5, h6, .brand-font {
     gap: 8px;
   }
   
-  .product-actions .btn-catalog-wa,
+  .product-actions .btn-catalog-tiktok,
   .product-actions .btn-catalog-shopee {
     width: 100%;
     padding: 11px 0;
@@ -1459,6 +1459,39 @@ html:has(.bio-body) {
   
   .contact-item-card p {
     font-size: 0.72rem !important;
+  }
+
+  /* Catalog Grid 2-column mobile optimization */
+  .product-card {
+    border-radius: 16px !important;
+  }
+  .product-info {
+    padding: 12px 10px !important;
+  }
+  .product-info h3 {
+    font-size: 0.95rem !important;
+    margin-bottom: 4px !important;
+  }
+  .product-desc {
+    font-size: 0.72rem !important;
+    margin-bottom: 12px !important;
+    line-height: 1.4 !important;
+    height: auto !important;
+  }
+  .product-actions {
+    gap: 6px !important;
+  }
+  .btn-catalog-tiktok,
+  .btn-catalog-shopee {
+    font-size: 0.72rem !important;
+    padding: 8px 4px !important;
+    border-radius: 30px !important;
+  }
+  .product-badge {
+    top: 10px !important;
+    left: 10px !important;
+    font-size: 0.65rem !important;
+    padding: 4px 10px !important;
   }
 }
 
