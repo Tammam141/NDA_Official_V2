@@ -8,7 +8,7 @@ const translations = {
     
     hero_title: "Bring Beauty, Feel Comfort",
     hero_desc: "Koleksi hijab premium yang dirancang khusus untuk kenyamanan seharian dengan sentuhan elegan nan anggun.",
-    hero_btn: "Lihat Koleksi V2",
+    hero_btn: "Lihat Koleksi",
     
     val_title: "Kenapa Memilih NDA?",
     val_sub: "Setiap detail dirancang untuk memberikan pengalaman berhijab terbaik",
@@ -19,7 +19,7 @@ const translations = {
     val_harga_title: "Harga Terbaik",
     val_harga_desc: "Kualitas kemewahan premium yang tetap ramah di kantong untuk melengkapi koleksi harian Anda.",
     
-    cat_title: "Koleksi Showcase V2",
+    cat_title: "Koleksi Showcase",
     cat_sub: "Pilih produk favorit Anda dan pesan langsung melalui WhatsApp atau Shopee.",
     cat_filter_all: "Semua",
     cat_filter_segi_empat: "Segi Empat",
@@ -58,9 +58,9 @@ const translations = {
     contact_card_tiktok: "TikTok Store",
     
     footer_tagline: "Bring Beauty, Feel Comfort. Sahabat perjalanan keanggunan muslimah Indonesia.",
-    footer_copyright: "© 2026 NDA Official V2. Seluruh Hak Cipta Dilindungi.",
+    footer_copyright: "© 2026 NDA Official. Seluruh Hak Cipta Dilindungi.",
     
-    // --- V2 MULTI-PAGE ADDITIONS ---
+    // --- MULTI-PAGE ADDITIONS ---
     // Secondary Pages headers
     about_header_title: "Tentang NDA",
     about_header_desc: "Kenyamanan, Kualitas, dan Keanggunan dalam satu balutan.",
@@ -130,7 +130,7 @@ const translations = {
     
     hero_title: "Bring Beauty, Feel Comfort",
     hero_desc: "A premium hijab collection specifically designed for all-day comfort with an elegant and graceful touch.",
-    hero_btn: "View V2 Collection",
+    hero_btn: "View Collection",
     
     val_title: "Why Choose NDA?",
     val_sub: "Every single detail is crafted to provide you with the best hijab experience",
@@ -141,7 +141,7 @@ const translations = {
     val_harga_title: "Best Value",
     val_harga_desc: "Premium luxury quality that remains friendly to your pocket to complete your daily wardrobe.",
     
-    cat_title: "V2 Showcase Collection",
+    cat_title: "Showcase Collection",
     cat_sub: "Select your favorite product and order directly via WhatsApp or Shopee.",
     cat_filter_all: "All",
     cat_filter_segi_empat: "Square Hijab",
@@ -180,9 +180,9 @@ const translations = {
     contact_card_tiktok: "TikTok Store",
     
     footer_tagline: "Bring Beauty, Feel Comfort. The companion of elegance for Indonesian Muslimahs.",
-    footer_copyright: "© 2026 NDA Official V2. All Rights Reserved.",
+    footer_copyright: "© 2026 NDA Official. All Rights Reserved.",
     
-    // --- V2 MULTI-PAGE ADDITIONS ---
+    // --- MULTI-PAGE ADDITIONS ---
     // Secondary Pages headers
     about_header_title: "About NDA",
     about_header_desc: "Comfort, Quality, and Elegance woven into one.",
@@ -260,9 +260,9 @@ function updateWhatsAppLinks() {
     let text = "";
     
     if (currentLang === "id") {
-      text = `Halo admin NDA V2! Saya tertarik untuk memesan produk *${prodName}* yang saya lihat di website. Apakah stoknya masih tersedia?`;
+      text = `Halo admin NDA! Saya tertarik untuk memesan produk *${prodName}* yang saya lihat di website. Apakah stoknya masih tersedia?`;
     } else {
-      text = `Hello NDA V2 admin! I'm interested in ordering the *${prodName}* that I saw on the website. Is it currently in stock?`;
+      text = `Hello NDA admin! I'm interested in ordering the *${prodName}* that I saw on the website. Is it currently in stock?`;
     }
     
     btn.href = `${waBase}?text=${encodeURIComponent(text)}`;
@@ -322,10 +322,10 @@ function updateEmailLink() {
   let body = "";
   
   if (currentLang === "id") {
-    subject = "Tanya Seputar Produk NDA Fashion Hijab V2";
+    subject = "Tanya Seputar Produk NDA Fashion Hijab";
     body = "Halo Admin NDA,\n\nSaya tertarik dengan produk Anda dan ingin bertanya mengenai detail atau stok produk.\n\nTerima kasih.";
   } else {
-    subject = "Inquiry Regarding NDA Fashion Hijab V2 Products";
+    subject = "Inquiry Regarding NDA Fashion Hijab Products";
     body = "Hello NDA Admin,\n\nI am interested in your products and would like to ask about the details or stock availability.\n\nThank you.";
   }
 
