@@ -117,7 +117,7 @@ const translations = {
     detail_order_wa: "<i class=\"fab fa-whatsapp me-2\"></i> Pesan via WhatsApp",
     
     // Linktree index
-    bio_website_btn: "Website Resmi",
+    bio_website_btn: "Official Website",
     bio_shopee_btn: "Shopee",
     bio_tiktok_btn: "TikTok Shop",
     bio_wa_btn: "Hubungi miNDA!"
