@@ -76,6 +76,8 @@ const translations = {
     time_2024_desc: "Peluncuran resmi Pashmina Cotton Rayon dan Segiempat Paris Voal yang langsung mendapat sambutan hangat.",
     time_2025_title: "2025 - Menjangkau Dunia",
     time_2025_desc: "Transformasi digital melalui website resmi untuk melayani pelanggan muslimah di seluruh penjuru Indonesia dan dunia.",
+    time_2026_title: "2026 - Keanggunan & Kenyamanan",
+    time_2026_desc: "Di tahun ini, fokus kami tetap sama: konsisten menyatukan keanggunan visual dengan kenyamanan mutlak di setiap helai hijab NDA. Kami terus berkomitmen menjaga kualitas terbaik agar setiap produk yang Anda kenakan selalu menjadi simbol rasa percaya diri yang menemani hari-hari aktif Anda.",
     
     // Mission & Values
     about_mission_title: "Misi Kami",
@@ -198,6 +200,8 @@ const translations = {
     time_2024_desc: "Official launch of Pashmina Cotton Rayon and Square Paris Voal which received immediate warm responses.",
     time_2025_title: "2025 - Reaching Globally",
     time_2025_desc: "Digital transformation with our official website to serve Muslimahs across Indonesia and worldwide.",
+    time_2026_title: "2026 - Elegance & Comfort",
+    time_2026_desc: "This year, our focus remains the same: consistently uniting visual elegance with absolute comfort in every single strand of NDA hijab. We continue our commitment to maintaining the highest quality so that every product you wear always becomes a symbol of confidence that accompanies your active days.",
     
     // Mission & Values
     about_mission_title: "Our Mission",
